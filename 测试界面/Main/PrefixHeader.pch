@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  测试界面
+//
+//  Created by shoule on 15/5/20.
+//  Copyright (c) 2015年 SaiDicaprio. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+#define Screen_height   [[UIScreen mainScreen] bounds].size.height
+#define Screen_width    [[UIScreen mainScreen] bounds].size.width
+
+#endif
