@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "CartViewController.h"
+#import "CartCell.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -24,5 +26,22 @@
     CartViewController *next = [CartViewController new];
     [self.navigationController pushViewController:next animated:YES];
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *Ident = @"CartCell";
+    CartCell* cell = [tableView dequeueReusableCellWithIdentifier:Ident];
+    if (cell == nil) {
+        cell =[[[NSBundle mainBundle]loadNibNamed:@"CartCell" owner:self options:nil]lastObject];
+    }
+    return cell;
+}
+
+
 
 @end

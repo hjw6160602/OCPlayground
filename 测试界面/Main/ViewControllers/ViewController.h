@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NormalViewController.h"
-@interface ViewController : NormalViewController
+@interface ViewController : UIViewController
 
 - (IBAction)MyCart;
 
