@@ -17,7 +17,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -28,16 +27,27 @@
     return 10;
 }
 
-
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSString *ID = @"Identifier";
-    CakeCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (cell == nil) {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"CakeCell" owner:self options:nil]lastObject];
-    }
-    cell.detailLabel.text = @"我是测试数据！我是测试数据！我是测试数据！我是测试数据！我是测试数据！我是测试数据！";
-    NSLog(@"cellForRowAtIndexPath---cell.width:%f",cell.frame.size.width);
+    UITableViewCell *cell = [UITableViewCell new];
+    UIView *lineView = [[UIView alloc]initWithFrame:CGRectMake(20, 0, Screen_width - 40, 3)];
+    lineView.layer.masksToBounds = YES;
+    [cell.contentView addSubview:lineView];
+    CAReplicatorLayer *replicator = [CAReplicatorLayer layer];
+    replicator.frame = lineView.bounds;
+    [lineView.layer addSublayer:replicator];
+    replicator.instanceCount = 40;
+    CATransform3D transform = CATransform3DIdentity;
+    transform = CATransform3DTranslate(transform, 8, 0, 0);
+    replicator.instanceTransform = transform;
+    CALayer *imageLayer = [CALayer layer];
+    imageLayer.frame = CGRectMake(0, 0, 3, 3);
+    imageLayer.contents = (__bridge id)([UIImage imageNamed:@"ico-ticket-point.png"].CGImage);
+    [replicator addSublayer:imageLayer];
+    UIView *backView = [[UIView alloc]initWithFrame:CGRectMake(20, CGRectGetMaxY(lineView.frame) + 13, Screen_width - 40, 138)];
+    backView.backgroundColor = [UIColor whiteColor];
+    backView.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    backView.layer.borderWidth = 1.0f;
+    [cell.contentView addSubview:backView];
     return cell;
 }
 
