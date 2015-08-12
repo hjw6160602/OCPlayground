@@ -29,7 +29,6 @@
 		7882B0601B0CA4BC00C95B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7882B05E1B0CA4BC00C95B74 /* Main.storyboard */; };
 		7882B0621B0CA4BC00C95B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7882B0611B0CA4BC00C95B74 /* Images.xcassets */; };
 		7882B0651B0CA4BC00C95B74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7882B0631B0CA4BC00C95B74 /* LaunchScreen.xib */; };
-		7882B0711B0CA4BC00C95B74 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882B0701B0CA4BC00C95B74 /* ____Tests.m */; };
 		7882B07F1B0CA51700C95B74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882B07D1B0CA51700C95B74 /* AppDelegate.m */; };
 		7882B0821B0CA58700C95B74 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7882B0811B0CA58700C95B74 /* Info.plist */; };
 		7882B0881B0CA66600C95B74 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882B0851B0CA66600C95B74 /* CartViewController.m */; };
@@ -55,17 +54,8 @@
 		78A476851B2A9F3600700F7B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A476841B2A9F3600700F7B /* TableViewController.m */; };
 		78A476891B2A9F8F00700F7B /* CakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A476871B2A9F8F00700F7B /* CakeCell.m */; };
 		78A4768A1B2A9F8F00700F7B /* CakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A476881B2A9F8F00700F7B /* CakeCell.xib */; };
+		78AE1D641B578AB700407B3D /* webController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE1D631B578AB700407B3D /* webController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7882B06B1B0CA4BC00C95B74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7882B0461B0CA4BB00C95B74 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7882B04D1B0CA4BB00C95B74;
-			remoteInfo = "测试界面";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		786C8D231B1EB0AC00391E0D /* ico_aboutbsk_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_aboutbsk_app.png; sourceTree = "<group>"; };
@@ -95,7 +85,6 @@
 		7882B05F1B0CA4BC00C95B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7882B0611B0CA4BC00C95B74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7882B0641B0CA4BC00C95B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7882B06A1B0CA4BC00C95B74 /* 测试界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7882B06F1B0CA4BC00C95B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7882B0701B0CA4BC00C95B74 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		7882B07C1B0CA51700C95B74 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,17 +121,12 @@
 		78A476861B2A9F8F00700F7B /* CakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CakeCell.h; path = "测试界面/Views/CakeCell.h"; sourceTree = SOURCE_ROOT; };
 		78A476871B2A9F8F00700F7B /* CakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CakeCell.m; path = "测试界面/Views/CakeCell.m"; sourceTree = SOURCE_ROOT; };
 		78A476881B2A9F8F00700F7B /* CakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CakeCell.xib; path = "测试界面/Views/CakeCell.xib"; sourceTree = SOURCE_ROOT; };
+		78AE1D621B578AB700407B3D /* webController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webController.h; sourceTree = "<group>"; };
+		78AE1D631B578AB700407B3D /* webController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7882B04B1B0CA4BB00C95B74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7882B0671B0CA4BC00C95B74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				7882B04E1B0CA4BB00C95B74 /* 测试界面.app */,
-				7882B06A1B0CA4BC00C95B74 /* 测试界面Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +253,8 @@
 				7882B0AA1B0CBB9900C95B74 /* CartViewController.xib */,
 				78A476831B2A9F3600700F7B /* TableViewController.h */,
 				78A476841B2A9F3600700F7B /* TableViewController.m */,
+				78AE1D621B578AB700407B3D /* webController.h */,
+				78AE1D631B578AB700407B3D /* webController.m */,
 			);
 			name = ViewControllers;
 			path = Main/ViewControllers;
@@ -363,39 +348,18 @@
 			productReference = 7882B04E1B0CA4BB00C95B74 /* 测试界面.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7882B0691B0CA4BC00C95B74 /* 测试界面Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7882B0771B0CA4BC00C95B74 /* Build configuration list for PBXNativeTarget "测试界面Tests" */;
-			buildPhases = (
-				7882B0661B0CA4BC00C95B74 /* Sources */,
-				7882B0671B0CA4BC00C95B74 /* Frameworks */,
-				7882B0681B0CA4BC00C95B74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7882B06C1B0CA4BC00C95B74 /* PBXTargetDependency */,
-			);
-			name = "测试界面Tests";
-			productName = "测试界面Tests";
-			productReference = 7882B06A1B0CA4BC00C95B74 /* 测试界面Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7882B0461B0CA4BB00C95B74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SaiDicaprio;
 				TargetAttributes = {
 					7882B04D1B0CA4BB00C95B74 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					7882B0691B0CA4BC00C95B74 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = 7882B04D1B0CA4BB00C95B74;
+						DevelopmentTeam = 7R3MSEN8NJ;
 					};
 				};
 			};
@@ -413,7 +377,6 @@
 			projectRoot = "";
 			targets = (
 				7882B04D1B0CA4BB00C95B74 /* 测试界面 */,
-				7882B0691B0CA4BC00C95B74 /* 测试界面Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -461,13 +424,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7882B0681B0CA4BC00C95B74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -486,27 +442,12 @@
 				7882B0891B0CA66600C95B74 /* NormalViewController.m in Sources */,
 				78A476891B2A9F8F00700F7B /* CakeCell.m in Sources */,
 				787FDD511B0EC4A8000E74D9 /* AccessoriesCell.m in Sources */,
+				78AE1D641B578AB700407B3D /* webController.m in Sources */,
 				7882B0541B0CA4BB00C95B74 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7882B0661B0CA4BC00C95B74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7882B0711B0CA4BC00C95B74 /* ____Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7882B06C1B0CA4BC00C95B74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7882B04D1B0CA4BB00C95B74 /* 测试界面 */;
-			targetProxy = 7882B06B1B0CA4BC00C95B74 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7882B05E1B0CA4BC00C95B74 /* Main.storyboard */ = {
@@ -550,6 +491,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -613,10 +555,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/shoule/Documents/WorkSapce/测试界面/测试界面/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "测试界面/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SaiDicaprio.testView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -625,45 +569,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "/Users/shoule/Documents/WorkSapce/测试界面/测试界面/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = "测试界面/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SaiDicaprio.testView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7882B0781B0CA4BC00C95B74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "测试界面Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试界面.app/测试界面";
-			};
-			name = Debug;
-		};
-		7882B0791B0CA4BC00C95B74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "测试界面Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试界面.app/测试界面";
 			};
 			name = Release;
 		};
@@ -684,15 +596,6 @@
 			buildConfigurations = (
 				7882B0751B0CA4BC00C95B74 /* Debug */,
 				7882B0761B0CA4BC00C95B74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7882B0771B0CA4BC00C95B74 /* Build configuration list for PBXNativeTarget "测试界面Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7882B0781B0CA4BC00C95B74 /* Debug */,
-				7882B0791B0CA4BC00C95B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

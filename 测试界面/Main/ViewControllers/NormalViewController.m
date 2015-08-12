@@ -165,7 +165,8 @@ UIWindow* _sheetWindow;
     [HUD removeFromSuperview];
 }
 
--(void)dealloc{
-    [[NSNotificationCenter defaultCenter] removeObserver:nil];
-}
+//-(void)dealloc{
+//    [[NSNotificationCenter defaultCenter] removeObserver:nil];
+//}
+
 @end
