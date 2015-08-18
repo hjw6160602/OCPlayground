@@ -102,13 +102,10 @@
                                 <rect key="frame" x="116" y="244" width="88" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" id="GKa-tI-gEi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check" id="GKa-tI-gEi">
                                 <rect key="frame" x="102" y="244" width="116" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="nSZ-bN-Pqt" appends="YES" id="YXg-gJ-yUE"/>
-                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -118,11 +115,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeB-Ts-VQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="nSZ-bN-Pqt">
-                    <connections>
-                        <action selector="didSelectedCheck:" destination="W2T-Qw-bhj" id="fcI-vI-BIA"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2197" y="1176"/>
         </scene>
