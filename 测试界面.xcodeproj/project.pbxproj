@@ -56,6 +56,12 @@
 		78A476891B2A9F8F00700F7B /* CakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A476871B2A9F8F00700F7B /* CakeCell.m */; };
 		78A4768A1B2A9F8F00700F7B /* CakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A476881B2A9F8F00700F7B /* CakeCell.xib */; };
 		78AE1D641B578AB700407B3D /* webController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE1D631B578AB700407B3D /* webController.m */; };
+		78B0F4361CB62E9300573760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0F4351CB62E9300573760 /* AppDelegate.swift */; };
+		78B0F4381CB62E9300573760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0F4371CB62E9300573760 /* ViewController.swift */; };
+		78B0F43B1CB62E9300573760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B0F4391CB62E9300573760 /* Main.storyboard */; };
+		78B0F43D1CB62E9300573760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B0F43C1CB62E9300573760 /* Assets.xcassets */; };
+		78B0F4401CB62E9300573760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B0F43E1CB62E9300573760 /* LaunchScreen.storyboard */; };
+		78B0F4461CB631A500573760 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0F4451CB631A500573760 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,10 +130,25 @@
 		78A476881B2A9F8F00700F7B /* CakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CakeCell.xib; path = "测试界面/Views/CakeCell.xib"; sourceTree = SOURCE_ROOT; };
 		78AE1D621B578AB700407B3D /* webController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webController.h; sourceTree = "<group>"; };
 		78AE1D631B578AB700407B3D /* webController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webController.m; sourceTree = "<group>"; };
+		78B0F4331CB62E9300573760 /* Tab&Navi隐藏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab&Navi隐藏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B0F4351CB62E9300573760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78B0F4371CB62E9300573760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78B0F43A1CB62E9300573760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B0F43C1CB62E9300573760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78B0F43F1CB62E9300573760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78B0F4411CB62E9300573760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B0F4451CB631A500573760 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7882B04B1B0CA4BB00C95B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B0F4301CB62E9300573760 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				7882B0501B0CA4BB00C95B74 /* 测试界面 */,
+				78B0F4341CB62E9300573760 /* Tab&Navi隐藏 */,
 				7882B04F1B0CA4BB00C95B74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				7882B04E1B0CA4BB00C95B74 /* 测试界面.app */,
+				78B0F4331CB62E9300573760 /* Tab&Navi隐藏.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -313,6 +336,20 @@
 			path = cartImage;
 			sourceTree = "<group>";
 		};
+		78B0F4341CB62E9300573760 /* Tab&Navi隐藏 */ = {
+			isa = PBXGroup;
+			children = (
+				78B0F4351CB62E9300573760 /* AppDelegate.swift */,
+				78B0F4371CB62E9300573760 /* ViewController.swift */,
+				78B0F4451CB631A500573760 /* SecondViewController.swift */,
+				78B0F4391CB62E9300573760 /* Main.storyboard */,
+				78B0F43C1CB62E9300573760 /* Assets.xcassets */,
+				78B0F43E1CB62E9300573760 /* LaunchScreen.storyboard */,
+				78B0F4411CB62E9300573760 /* Info.plist */,
+			);
+			path = "Tab&Navi隐藏";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,18 +370,39 @@
 			productReference = 7882B04E1B0CA4BB00C95B74 /* 测试界面.app */;
 			productType = "com.apple.product-type.application";
 		};
+		78B0F4321CB62E9300573760 /* Tab&Navi隐藏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B0F4441CB62E9300573760 /* Build configuration list for PBXNativeTarget "Tab&Navi隐藏" */;
+			buildPhases = (
+				78B0F42F1CB62E9300573760 /* Sources */,
+				78B0F4301CB62E9300573760 /* Frameworks */,
+				78B0F4311CB62E9300573760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tab&Navi隐藏";
+			productName = "Tab&Navi隐藏";
+			productReference = 78B0F4331CB62E9300573760 /* Tab&Navi隐藏.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7882B0461B0CA4BB00C95B74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SaiDicaprio;
 				TargetAttributes = {
 					7882B04D1B0CA4BB00C95B74 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 7R3MSEN8NJ;
+					};
+					78B0F4321CB62E9300573760 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -362,6 +420,7 @@
 			projectRoot = "";
 			targets = (
 				7882B04D1B0CA4BB00C95B74 /* 测试界面 */,
+				78B0F4321CB62E9300573760 /* Tab&Navi隐藏 */,
 			);
 		};
 /* End PBXProject section */
@@ -409,6 +468,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78B0F4311CB62E9300573760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B0F4401CB62E9300573760 /* LaunchScreen.storyboard in Resources */,
+				78B0F43D1CB62E9300573760 /* Assets.xcassets in Resources */,
+				78B0F43B1CB62E9300573760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -433,6 +502,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78B0F42F1CB62E9300573760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B0F4461CB631A500573760 /* SecondViewController.swift in Sources */,
+				78B0F4381CB62E9300573760 /* ViewController.swift in Sources */,
+				78B0F4361CB62E9300573760 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -451,6 +530,22 @@
 			);
 			name = LaunchScreen.xib;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		78B0F4391CB62E9300573760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0F43A1CB62E9300573760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78B0F43E1CB62E9300573760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B0F43F1CB62E9300573760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -565,6 +660,32 @@
 			};
 			name = Release;
 		};
+		78B0F4421CB62E9300573760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Tab&Navi隐藏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.Tab-Navi--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78B0F4431CB62E9300573760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tab&Navi隐藏/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.Tab-Navi--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,6 +706,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		78B0F4441CB62E9300573760 /* Build configuration list for PBXNativeTarget "Tab&Navi隐藏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B0F4421CB62E9300573760 /* Debug */,
+				78B0F4431CB62E9300573760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

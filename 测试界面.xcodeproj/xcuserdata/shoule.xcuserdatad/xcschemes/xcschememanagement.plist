@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Tab&amp;Navi隐藏.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>测试界面.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>7882B0691B0CA4BC00C95B74</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78B0F4321CB62E9300573760</key>
 		<dict>
 			<key>primary</key>
 			<true/>

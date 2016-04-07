@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA17159C-80CE-4BE6-9546-906934852668</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AD0E00575474B47525BB912916AD2C1C6386D20</key>
+		<string>https://github.com/hjw6160602/OCPlayground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>测试界面.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AD0E00575474B47525BB912916AD2C1C6386D20</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hjw6160602/OCPlayground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AD0E00575474B47525BB912916AD2C1C6386D20</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AD0E00575474B47525BB912916AD2C1C6386D20</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E6%B5%8B%E8%AF%95%E7%95%8C%E9%9D%A2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

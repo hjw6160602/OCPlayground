@@ -18,6 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //缓存路径
+
+
+    
     [self initControls];
 }
 
