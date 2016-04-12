@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>奇怪的PriceBar.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>测试界面.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>78384F1F1CB7B197003DE7C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7882B04D1B0CA4BB00C95B74</key>
 		<dict>
 			<key>primary</key>
