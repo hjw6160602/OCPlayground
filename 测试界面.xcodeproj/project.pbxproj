@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7817922D1CBF3F910021FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7817922C1CBF3F910021FBA6 /* AppDelegate.swift */; };
+		7817922F1CBF3F910021FBA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7817922E1CBF3F910021FBA6 /* ViewController.swift */; };
+		781792321CBF3F910021FBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781792301CBF3F910021FBA6 /* Main.storyboard */; };
+		781792341CBF3F910021FBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781792331CBF3F910021FBA6 /* Assets.xcassets */; };
+		781792371CBF3F910021FBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781792351CBF3F910021FBA6 /* LaunchScreen.storyboard */; };
+		7817923D1CBF3FCA0021FBA6 /* ScreeningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7817923C1CBF3FCA0021FBA6 /* ScreeningView.xib */; };
 		78384F231CB7B198003DE7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78384F221CB7B198003DE7C2 /* AppDelegate.swift */; };
 		78384F251CB7B198003DE7C2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78384F241CB7B198003DE7C2 /* FirstViewController.swift */; };
 		78384F271CB7B198003DE7C2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78384F261CB7B198003DE7C2 /* SecondViewController.swift */; };
@@ -70,9 +76,22 @@
 		78B0F43D1CB62E9300573760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B0F43C1CB62E9300573760 /* Assets.xcassets */; };
 		78B0F4401CB62E9300573760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B0F43E1CB62E9300573760 /* LaunchScreen.storyboard */; };
 		78B0F4461CB631A500573760 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0F4451CB631A500573760 /* SecondViewController.swift */; };
+		78F375B21CBC9554001AFBA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F375B11CBC9554001AFBA1 /* AppDelegate.swift */; };
+		78F375B41CBC9554001AFBA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F375B31CBC9554001AFBA1 /* ViewController.swift */; };
+		78F375B71CBC9554001AFBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F375B51CBC9554001AFBA1 /* Main.storyboard */; };
+		78F375B91CBC9554001AFBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F375B81CBC9554001AFBA1 /* Assets.xcassets */; };
+		78F375BC1CBC9554001AFBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F375BA1CBC9554001AFBA1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7817922A1CBF3F910021FBA6 /* 筛选背景透明.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "筛选背景透明.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7817922C1CBF3F910021FBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7817922E1CBF3F910021FBA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		781792311CBF3F910021FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		781792331CBF3F910021FBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		781792361CBF3F910021FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		781792381CBF3F910021FBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7817923C1CBF3FCA0021FBA6 /* ScreeningView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreeningView.xib; sourceTree = "<group>"; };
 		78384F201CB7B197003DE7C2 /* 奇怪的PriceBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "奇怪的PriceBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78384F221CB7B198003DE7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78384F241CB7B198003DE7C2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -156,9 +175,23 @@
 		78B0F43F1CB62E9300573760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B0F4411CB62E9300573760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B0F4451CB631A500573760 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		78F375AF1CBC9554001AFBA1 /* 大众AutoLayout题目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "大众AutoLayout题目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F375B11CBC9554001AFBA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78F375B31CBC9554001AFBA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78F375B61CBC9554001AFBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78F375B81CBC9554001AFBA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F375BB1CBC9554001AFBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78F375BD1CBC9554001AFBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		781792271CBF3F910021FBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78384F1D1CB7B197003DE7C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,9 +213,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F375AC1CBC9554001AFBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7817922B1CBF3F910021FBA6 /* 筛选背景透明 */ = {
+			isa = PBXGroup;
+			children = (
+				7817923C1CBF3FCA0021FBA6 /* ScreeningView.xib */,
+				7817922C1CBF3F910021FBA6 /* AppDelegate.swift */,
+				7817922E1CBF3F910021FBA6 /* ViewController.swift */,
+				781792301CBF3F910021FBA6 /* Main.storyboard */,
+				781792331CBF3F910021FBA6 /* Assets.xcassets */,
+				781792351CBF3F910021FBA6 /* LaunchScreen.storyboard */,
+				781792381CBF3F910021FBA6 /* Info.plist */,
+			);
+			path = "筛选背景透明";
+			sourceTree = "<group>";
+		};
 		78384F211CB7B198003DE7C2 /* 奇怪的PriceBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +294,8 @@
 				7882B0501B0CA4BB00C95B74 /* 测试界面 */,
 				78B0F4341CB62E9300573760 /* Tab&Navi隐藏 */,
 				78384F211CB7B198003DE7C2 /* 奇怪的PriceBar */,
+				78F375B01CBC9554001AFBA1 /* 大众AutoLayout题目 */,
+				7817922B1CBF3F910021FBA6 /* 筛选背景透明 */,
 				7882B04F1B0CA4BB00C95B74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -250,6 +306,8 @@
 				7882B04E1B0CA4BB00C95B74 /* 测试界面.app */,
 				78B0F4331CB62E9300573760 /* Tab&Navi隐藏.app */,
 				78384F201CB7B197003DE7C2 /* 奇怪的PriceBar.app */,
+				78F375AF1CBC9554001AFBA1 /* 大众AutoLayout题目.app */,
+				7817922A1CBF3F910021FBA6 /* 筛选背景透明.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -393,9 +451,39 @@
 			path = "Tab&Navi隐藏";
 			sourceTree = "<group>";
 		};
+		78F375B01CBC9554001AFBA1 /* 大众AutoLayout题目 */ = {
+			isa = PBXGroup;
+			children = (
+				78F375B11CBC9554001AFBA1 /* AppDelegate.swift */,
+				78F375B31CBC9554001AFBA1 /* ViewController.swift */,
+				78F375B51CBC9554001AFBA1 /* Main.storyboard */,
+				78F375B81CBC9554001AFBA1 /* Assets.xcassets */,
+				78F375BA1CBC9554001AFBA1 /* LaunchScreen.storyboard */,
+				78F375BD1CBC9554001AFBA1 /* Info.plist */,
+			);
+			path = "大众AutoLayout题目";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		781792291CBF3F910021FBA6 /* 筛选背景透明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7817923B1CBF3F910021FBA6 /* Build configuration list for PBXNativeTarget "筛选背景透明" */;
+			buildPhases = (
+				781792261CBF3F910021FBA6 /* Sources */,
+				781792271CBF3F910021FBA6 /* Frameworks */,
+				781792281CBF3F910021FBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "筛选背景透明";
+			productName = "筛选背景透明";
+			productReference = 7817922A1CBF3F910021FBA6 /* 筛选背景透明.app */;
+			productType = "com.apple.product-type.application";
+		};
 		78384F1F1CB7B197003DE7C2 /* 奇怪的PriceBar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78384F331CB7B198003DE7C2 /* Build configuration list for PBXNativeTarget "奇怪的PriceBar" */;
@@ -447,6 +535,23 @@
 			productReference = 78B0F4331CB62E9300573760 /* Tab&Navi隐藏.app */;
 			productType = "com.apple.product-type.application";
 		};
+		78F375AE1CBC9554001AFBA1 /* 大众AutoLayout题目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F375C01CBC9554001AFBA1 /* Build configuration list for PBXNativeTarget "大众AutoLayout题目" */;
+			buildPhases = (
+				78F375AB1CBC9554001AFBA1 /* Sources */,
+				78F375AC1CBC9554001AFBA1 /* Frameworks */,
+				78F375AD1CBC9554001AFBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "大众AutoLayout题目";
+			productName = "大众AutoLayout题目";
+			productReference = 78F375AF1CBC9554001AFBA1 /* 大众AutoLayout题目.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -457,6 +562,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SaiDicaprio;
 				TargetAttributes = {
+					781792291CBF3F910021FBA6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					78384F1F1CB7B197003DE7C2 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -465,6 +573,9 @@
 						DevelopmentTeam = 7R3MSEN8NJ;
 					};
 					78B0F4321CB62E9300573760 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					78F375AE1CBC9554001AFBA1 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -485,11 +596,24 @@
 				7882B04D1B0CA4BB00C95B74 /* 测试界面 */,
 				78B0F4321CB62E9300573760 /* Tab&Navi隐藏 */,
 				78384F1F1CB7B197003DE7C2 /* 奇怪的PriceBar */,
+				78F375AE1CBC9554001AFBA1 /* 大众AutoLayout题目 */,
+				781792291CBF3F910021FBA6 /* 筛选背景透明 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		781792281CBF3F910021FBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781792371CBF3F910021FBA6 /* LaunchScreen.storyboard in Resources */,
+				781792341CBF3F910021FBA6 /* Assets.xcassets in Resources */,
+				781792321CBF3F910021FBA6 /* Main.storyboard in Resources */,
+				7817923D1CBF3FCA0021FBA6 /* ScreeningView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78384F1E1CB7B197003DE7C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,9 +677,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F375AD1CBC9554001AFBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F375BC1CBC9554001AFBA1 /* LaunchScreen.storyboard in Resources */,
+				78F375B91CBC9554001AFBA1 /* Assets.xcassets in Resources */,
+				78F375B71CBC9554001AFBA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		781792261CBF3F910021FBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7817922F1CBF3F910021FBA6 /* ViewController.swift in Sources */,
+				7817922D1CBF3F910021FBA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78384F1C1CB7B197003DE7C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,9 +741,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F375AB1CBC9554001AFBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F375B41CBC9554001AFBA1 /* ViewController.swift in Sources */,
+				78F375B21CBC9554001AFBA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		781792301CBF3F910021FBA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781792311CBF3F910021FBA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		781792351CBF3F910021FBA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781792361CBF3F910021FBA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		78384F281CB7B198003DE7C2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -650,9 +818,51 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		78F375B51CBC9554001AFBA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F375B61CBC9554001AFBA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78F375BA1CBC9554001AFBA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F375BB1CBC9554001AFBA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		781792391CBF3F910021FBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "筛选背景透明/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7817923A1CBF3F910021FBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "筛选背景透明/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		78384F311CB7B198003DE7C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -814,9 +1024,43 @@
 			};
 			name = Release;
 		};
+		78F375BE1CBC9554001AFBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "大众AutoLayout题目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.--AutoLayout--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78F375BF1CBC9554001AFBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "大众AutoLayout题目/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SaiDicaprio.--AutoLayout--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7817923B1CBF3F910021FBA6 /* Build configuration list for PBXNativeTarget "筛选背景透明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781792391CBF3F910021FBA6 /* Debug */,
+				7817923A1CBF3F910021FBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		78384F331CB7B198003DE7C2 /* Build configuration list for PBXNativeTarget "奇怪的PriceBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -824,6 +1068,7 @@
 				78384F321CB7B198003DE7C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7882B0491B0CA4BB00C95B74 /* Build configuration list for PBXProject "测试界面" */ = {
 			isa = XCConfigurationList;
@@ -848,6 +1093,15 @@
 			buildConfigurations = (
 				78B0F4421CB62E9300573760 /* Debug */,
 				78B0F4431CB62E9300573760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F375C01CBC9554001AFBA1 /* Build configuration list for PBXNativeTarget "大众AutoLayout题目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F375BE1CBC9554001AFBA1 /* Debug */,
+				78F375BF1CBC9554001AFBA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="大众AutoLayout题目" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="khL-YM-ALy">
+                                <rect key="frame" x="180" y="95" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="cwE-lO-cgc"/>
+                                    <constraint firstAttribute="height" constant="128" id="y5P-Ff-0rp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AxG-6T-mws">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.63137254899999995" green="0.4941176471" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3wD-ie-Zlj"/>
+                                    <constraint firstAttribute="width" constant="240" id="ad9-sS-ZqY"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="RkL-QN-GWC" appends="YES" id="Qnr-wW-JXn"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYN-ji-NBL">
+                                <rect key="frame" x="180" y="384" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.078431372550000003" green="0.62745098040000002" blue="0.77647058820000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="JEC-YQ-FSu"/>
+                                    <constraint firstAttribute="width" constant="240" id="UFE-wk-NNz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="khL-YM-ALy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4NI-og-2px"/>
+                            <constraint firstItem="AxG-6T-mws" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CIz-bv-Ea8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YYN-ji-NBL" secondAttribute="bottom" constant="88" id="HNo-xK-7Zd"/>
+                            <constraint firstItem="khL-YM-ALy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="bTo-0w-9dy"/>
+                            <constraint firstItem="AxG-6T-mws" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mI3-lD-ZfD"/>
+                            <constraint firstItem="YYN-ji-NBL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="plm-zK-l4F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="midView" destination="AxG-6T-mws" id="taB-q1-rYh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="RkL-QN-GWC">
+                    <connections>
+                        <action selector="TapClick:" destination="BYZ-38-t0r" id="unZ-1c-EZh"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>
