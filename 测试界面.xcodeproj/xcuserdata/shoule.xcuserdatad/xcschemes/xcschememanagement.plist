@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>temp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>textField回调不调用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>大众AutoLayout题目.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +63,21 @@
 			<true/>
 		</dict>
 		<key>78B0F4321CB62E9300573760</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78EDC1221CD08B44000E1236</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78EDC13C1CD091EA000E1236</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78EDC1521CD091FF000E1236</key>
 		<dict>
 			<key>primary</key>
 			<true/>
