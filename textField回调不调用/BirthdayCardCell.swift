@@ -18,12 +18,14 @@ class BirthdayCardCell: UITableViewCell {
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    
 }
 
 extension BirthdayCardCell: UITextFieldDelegate{
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         print("textField shouldChangeCharactersInRange")
+        print(textField.text)
         return true
     }
+    
+    
 }

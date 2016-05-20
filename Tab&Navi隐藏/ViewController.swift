@@ -16,18 +16,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view, typically from a nib.
-        @IBAction func tapClick(sender: AnyObject) {
-        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        @IBAction func TapClick(sender: AnyObject) {
-        }
-        @IBOutlet var TapClick: UITapGestureRecognizer!
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func OnClick(sender: AnyObject) {
