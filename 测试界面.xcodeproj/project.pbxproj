@@ -60,6 +60,8 @@
 		7882B0A71B0CACFA00C95B74 /* pic-jdnr.png in Resources */ = {isa = PBXBuildFile; fileRef = 7882B09F1B0CACFA00C95B74 /* pic-jdnr.png */; };
 		7882B0AB1B0CBB9900C95B74 /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7882B0AA1B0CBB9900C95B74 /* CartViewController.xib */; };
 		7882B0AE1B0CBC9B00C95B74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882B0AD1B0CBC9B00C95B74 /* ViewController.m */; };
+		78865DA81CF29AE300276AF7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78865DA71CF29AE300276AF7 /* TabBarController.swift */; };
+		78865DAA1CF29D7F00276AF7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78865DA91CF29D7F00276AF7 /* NavigationController.swift */; };
 		789664D51B3042330040B9FA /* ico-ticket-point.png in Resources */ = {isa = PBXBuildFile; fileRef = 789664D41B3042330040B9FA /* ico-ticket-point.png */; };
 		7897D73B1B82DF560089FFB9 /* LayerAnimateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7897D73A1B82DF560089FFB9 /* LayerAnimateController.m */; };
 		789B67D81B2D7AA70074905B /* screen_evaluate.png in Resources */ = {isa = PBXBuildFile; fileRef = 789B67D51B2D7AA70074905B /* screen_evaluate.png */; };
@@ -160,6 +162,8 @@
 		7882B0AA1B0CBB9900C95B74 /* CartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
 		7882B0AC1B0CBC9B00C95B74 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7882B0AD1B0CBC9B00C95B74 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78865DA71CF29AE300276AF7 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		78865DA91CF29D7F00276AF7 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		789664D41B3042330040B9FA /* ico-ticket-point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-ticket-point.png"; sourceTree = "<group>"; };
 		7897D7391B82DF560089FFB9 /* LayerAnimateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimateController.h; sourceTree = "<group>"; };
 		7897D73A1B82DF560089FFB9 /* LayerAnimateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimateController.m; sourceTree = "<group>"; };
@@ -465,6 +469,8 @@
 		78B0F4341CB62E9300573760 /* Tab&Navi隐藏 */ = {
 			isa = PBXGroup;
 			children = (
+				78865DA71CF29AE300276AF7 /* TabBarController.swift */,
+				78865DA91CF29D7F00276AF7 /* NavigationController.swift */,
 				78B0F4351CB62E9300573760 /* AppDelegate.swift */,
 				78B0F4371CB62E9300573760 /* ViewController.swift */,
 				78B0F4451CB631A500573760 /* SecondViewController.swift */,
@@ -808,6 +814,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78B0F4461CB631A500573760 /* SecondViewController.swift in Sources */,
+				78865DA81CF29AE300276AF7 /* TabBarController.swift in Sources */,
+				78865DAA1CF29D7F00276AF7 /* NavigationController.swift in Sources */,
 				78B0F4381CB62E9300573760 /* ViewController.swift in Sources */,
 				78B0F4361CB62E9300573760 /* AppDelegate.swift in Sources */,
 			);
