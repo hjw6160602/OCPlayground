@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>UIWebView拍照和跳转.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>temp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>在tableView的header上加入手势.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>大众AutoLayout题目.xcscheme</key>
 		<dict>
@@ -62,6 +72,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>789197FC1D112F03000A2989</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>78B0F4321CB62E9300573760</key>
 		<dict>
 			<key>primary</key>
@@ -83,6 +98,11 @@
 			<true/>
 		</dict>
 		<key>78F375AE1CBC9554001AFBA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78FD27341D0FDA50002A5A14</key>
 		<dict>
 			<key>primary</key>
 			<true/>
